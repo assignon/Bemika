@@ -1,0 +1,331 @@
+#langsGlobalcontainer
+{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#languageContainer
+{
+
+   width: auto;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+
+}
+
+
+#languageContainer #defaultLanguague
+{
+
+   width: 90px;
+   height: 90px;
+   border: 1px solid #2DB0E8;
+   border-radius: 100%;
+   background-color: #2DB0E8;
+   cursor: pointer;
+   z-index: 3;
+
+}
+
+
+#languageContainer span
+{
+
+   cursor: pointer;
+   position: relative;
+
+}
+
+
+#closeLanguage
+{
+
+  border: 2px solid white;
+  border-radius: 100%;
+  font-size: 13px;
+  color: white;
+  background-color: #3E454B;
+  padding: 7px;
+  margin-left: -80px;
+
+}
+
+
+#closeLanguage:hover
+{
+
+   background-color: white;
+   color: #F91535;
+   border: 2px solid #F91535;
+
+}
+
+
+
+#langDropDown
+{
+
+   font-size: 20px;
+   color: white;
+   background-color: black;
+   border-radius: 100%;
+   border: 2px solid white;
+   padding: 6px;
+
+}
+
+
+#langDropDown:hover
+{
+
+   background-color: white;
+   color: black;
+   border: 2px solid black;
+
+}
+
+
+#addLanguage
+{
+
+   border: 2px solid white;
+   border-radius: 100%;
+   font-size: 16px;
+   color: white;
+   background-color: green;
+   padding: 8px;
+   margin-left: -40px;
+
+}
+
+
+#addLanguage:hover
+{
+
+   background-color: white;
+   color: green;
+   border: 2px solid green;
+
+}
+
+
+#langForm
+{
+
+   width: auto;
+   height: 200px;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   margin-top: -350px;
+   border: 1px solid red;
+
+}
+
+
+#langForm form
+{
+
+   width: auto;
+   height: auto;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #32323A;
+   border: 1px solid #32323A;
+   border-radius: 3px;
+   position: relative;
+   bottom: 200px;
+
+}
+
+
+#langForm form span
+{
+
+   color: #F91535;
+   border: 2px solid #F91535;
+   padding: 6px;
+   font-size: 13px;
+   cursor: pointer;
+   border-radius: 100%;
+   position: relative;
+   left: 100px;
+
+}
+
+
+#langForm form span:hover
+{
+
+   background-color: #F91535;
+   color: #32323A;
+
+}
+
+
+#addLanguagesError
+{
+
+   color: white;
+   margin-top: 3px;
+   margin-bottom: 3px;
+
+}
+
+
+#langForm form input
+{
+
+   width: 250px;
+   height: 35px;
+   background-color: white;
+   font-size: 18px;
+   padding-left: 10px;
+   margin-top: 5px;
+   border: 1px solid white;
+   border-radius: 3px;
+
+}
+
+
+#langForm form input[type="submit"]
+{
+
+   text-align: center;
+   background-color: #2DB0E8;
+   cursor: pointer;
+   color: white;
+   border: 1px solid #2DB0E8;
+
+}
+
+
+#langForm form input[type="submit"]:hover
+{
+
+   color: #32323A;
+   background-color: #2DB0E8;
+
+}
+
+
+#langs
+{
+
+  width: 170px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #32323A;
+  border: 1px solid #32323A;
+  border-radius: 3px;
+  position: relative;
+  bottom: 200px;
+  margin-left: 20px;
+
+}
+
+
+#langsReceiver
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+#langs span
+{
+
+   color: #F91535;
+   border: 2px solid #F91535;
+   padding: 6px;
+   font-size: 13px;
+   cursor: pointer;
+   border-radius: 100%;
+
+
+}
+
+
+#langs span:hover
+{
+
+   background-color: #F91535;
+   color: #32323A;
+
+}
+
+
+.newLangsContainer
+{
+
+   width: auto;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.newLangs
+{
+
+    width: 45px;
+    height: 45px;
+    border: 1px solid blue;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 18px;
+    margin-bottom: 0px;
+    background-color: white;
+
+}
+
+
+.newLangsName
+{
+
+   color: white;
+   text-align: center;
+   font-size: 17px;
+   margin-top:1px;
+   margin-bottom: 5px;
+
+}
+
+
+.essai
+{
+
+   position: relative;
+   top: 300px;
+
+}

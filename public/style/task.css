@@ -1,0 +1,21 @@
+html, body
+{
+
+   padding: 0px;
+   margin: 0px;
+   background-color: #FEF9FE;
+
+}
+
+
+#taskContainer
+{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   width: 100%;
+   height: auto;
+
+}
